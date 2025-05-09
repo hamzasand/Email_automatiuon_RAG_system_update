@@ -18,7 +18,6 @@ initial_state = {
       "threadId": "",
       "messageId": "",
       "references": "",
-      "Hamza":"",
       "sender": "",
       "subject": "",
       "body": ""
