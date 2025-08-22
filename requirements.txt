@@ -11,6 +11,7 @@ google-auth-httplib2
 beautifulsoup4
 python-dotenv
 colorama
+colorama
 langserve
 sse_starlette
 uvicorn
