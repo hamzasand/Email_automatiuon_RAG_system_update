@@ -1,5 +1,5 @@
 ################################################
-# Run this file for your domain specific dataset
+# Run this file for your domain specific Dataset
 ################################################
 from langchain_community.document_loaders import TextLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
