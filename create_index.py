@@ -45,7 +45,7 @@ print("Test RAG chain...")
 prompt = ChatPromptTemplate.from_template(RAG_SEARCH_PROMPT_TEMPLATE)
 llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", temperature=0.1)
 
-# RAG chain
+# RAG Chain
 rag_chain = (
     {"context": vectorstore_retriever, "question": RunnablePassthrough()}
     | prompt
