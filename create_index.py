@@ -34,12 +34,10 @@ doc_chunks = doc_splitter.split_documents(docs)
 
 print("Creating vector embeddings...")
 embeddings = GoogleGenerativeAIEmbeddings(model="models/text-embedding-004")
-
 vectorstore = Chroma.from_documents(doc_chunks, embeddings, persist_directory="db")
 
 # Semantic vector search
 vectorstore_retriever = vectorstore.as_retriever(search_kwargs={"k": 3})
-
 # Test RAG chain
 print("Test RAG chain...")
 prompt = ChatPromptTemplate.from_template(RAG_SEARCH_PROMPT_TEMPLATE)
