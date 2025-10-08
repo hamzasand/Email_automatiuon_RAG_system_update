@@ -11,7 +11,6 @@ from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAIEmb
 
 # Load environment variables from a .env file
 from dotenv import load_dotenv
-
 load_dotenv()
 
 RAG_SEARCH_PROMPT_TEMPLATE = """
