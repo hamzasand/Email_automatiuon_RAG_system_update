@@ -6,6 +6,7 @@ from langserve import add_routes
 from src.graph import Workflow
 from dotenv import load_dotenv
 
+
 # Load .env file
 load_dotenv()
 
