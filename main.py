@@ -1,4 +1,5 @@
 #######################################
+
 # Used forCustomer query based Emails
 #######################################
 from colorama import Fore, Style
