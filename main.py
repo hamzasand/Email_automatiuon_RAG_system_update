@@ -4,6 +4,7 @@
 
 #######################################
 from colorama import Fore, Style
+
 from src.graph import Workflow
 from dotenv import load_dotenv
 
