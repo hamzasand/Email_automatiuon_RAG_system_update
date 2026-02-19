@@ -5,9 +5,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAIEmb
 from langchain_groq import ChatGroq
 
 from langchain_chroma import Chroma
-
 from langchain_core.runnables import RunnablePassthrough
-
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from .structure_outputs import *
