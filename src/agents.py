@@ -1,7 +1,5 @@
 from langchain_core.prompts import ChatPromptTemplate, PromptTemplate
-
 from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAIEmbeddings
-
 from langchain_groq import ChatGroq
 from langchain_chroma import Chroma
 from langchain_core.runnables import RunnablePassthrough
