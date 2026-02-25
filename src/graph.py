@@ -74,6 +74,7 @@ from .state import GraphState
 
 from .nodes import Nodes
 
+
 class Workflow():
     def __init__(self):
         # initiate graph state & nodes
